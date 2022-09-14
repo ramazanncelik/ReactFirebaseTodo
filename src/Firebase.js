@@ -9,14 +9,14 @@ import { setTodos } from "./store/todos";
 import { setUserData } from "./utils/utils";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAun4z3ULpEpZ20OLG8wZ1MU0UJYBmGrWs",
-    authDomain: "patikadev-cf2df.firebaseapp.com",
-    databaseURL: "https://patikadev-cf2df-default-rtdb.firebaseio.com",
-    projectId: "patikadev-cf2df",
-    storageBucket: "patikadev-cf2df.appspot.com",
-    messagingSenderId: "82751287410",
-    appId: "1:82751287410:web:44d2a241873569efb592eb",
-    measurementId: "G-0CM1HQMXTD"
+    apiKey: your_apiKey,
+    authDomain: your_databaseURL,
+    databaseURL: your_databaseURL,
+    projectId: your_projectId,
+    storageBucket: your_storageBucket,
+    messagingSenderId: your_messagingSenderId,
+    appId: your_appId,
+    measurementId: your_measurementId
 };
 
 const app = initializeApp(firebaseConfig);
